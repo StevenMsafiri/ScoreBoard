@@ -1,0 +1,54 @@
+
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(cursed-timer-ulil-cufonfonts/CursedTimerUlil-Aznm.ttf);
+}
+body {
+    margin:0;
+    background-image: url("pitch.jpg");
+    background-size: cover;
+}
+
+.container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    background: hsl(229, 47%, 20%);
+    padding: 0 0 50px 0;
+    border-radius: 10px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.side {
+    width: 80px;
+    text-align: center;
+    background: #080001;
+    color: #f94f6d;
+    font-size: 90px;
+    font-family: Cursed Timer ULiL;
+    margin: 10px;
+    padding: 15px 50px 0 30px;
+    
+}
+
+.btn {
+    border: 1px solid#9AABD8;
+    background-color: hsl(229, 47%, 20%);
+    color: #9AABD8;
+    font-family: Cursed Timer ULiL;
+    padding: 5px;
+    margin: 0 3px;
+}
+
